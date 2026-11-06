@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal del Estudiante | Desarrollo de Software</title>
+  <style>
+    /* Estilos sencillos para que se vea limpio y moderno */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f9;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      background-color: #1f2937;
+      color: #ffffff;
+      padding: 25px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    h1 { margin: 0; font-size: 1.8rem; }
+    p.subtext { margin-top: 5px; color: #9ca3af; }
+    
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .tarjeta {
+      background: white;
+      flex: 1;
+      min-width: 280px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    .tarjeta h2 {
+      color: #2563eb;
+      font-size: 1.3rem;
+      border-bottom: 2px solid #eff6ff;
+      padding-bottom: 8px;
+    }
+    ul { list-style: none; padding: 0; }
+    li { margin-bottom: 10px; }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover { text-decoration: underline; }
+    .horario-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0;
+      border-bottom: 1px dashed #e5e7eb;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🚀 Portal del Estudiante de Software</h1>
+    <p class="subtext">Panel de control personal y proyectos de desarrollo</p>
+  </header>
+
+  <div class="contenedor">
+    
+    <!-- Bloque 1: Accesos Rápidos -->
+    <div class="tarjeta">
+      <h2>📌 Enlaces y Herramientas</h2>
+      <ul>
+        <li>🌐 <a href="https://github.com" target="_blank">Mi Perfil de GitHub</a></li>
+        <li>💻 <a href="https://w3schools.com" target="_blank">W3Schools (Tutoriales Web)</a></li>
+        <li>📘 <a href="https://developer.mozilla.org" target="_blank">Documentación MDN Web</a></li>
+      </ul>
+    </div>
+
+    <!-- Bloque 2: Mis Proyectos -->
+    <div class="tarjeta">
+      <h2>🛠️ Mis Proyectos en Curso</h2>
+      <ul>
+        <li>🟢 <strong>Calculadora JS:</strong> Código terminado</li>
+        <li>🟡 <strong>Página HTML/CSS:</strong> En desarrollo</li>
+        <li>🔴 <strong>Base de Datos SQL:</strong> Próximamente</li>
+      </ul>
+    </div>
+
+    <!-- Bloque 3: Horario Académico -->
+    <div class="tarjeta">
+      <h2>📅 Horario de Prácticas</h2>
+      <div class="horario-item">
+        <span>Lunes a Miércoles:</span>
+        <strong>Lógica & Algoritmos</strong>
+      </div>
+      <div class="horario-item">
+        <span>Jueves:</span>
+        <strong>Desarrollo Web</strong>
+      </div>
+      <div class="horario-item">
+        <span>Viernes:</span>
+        <strong>Mantenimiento de Código</strong>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
